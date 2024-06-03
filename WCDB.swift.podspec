@@ -19,6 +19,8 @@ Pod::Spec.new do |wcdb|
   wcdb.tvos.deployment_target = "9.0"
   wcdb.source       = { :git => "https://github.com/Tencent/wcdb.git", :tag => "v1.0.7.5" }
   wcdb.source_files  = "swift/source/**/*.swift", "swift/source/**/**/*.swift", "swift/source/util/*.{h,c}"
+  wcdb.resource_bundles = {'WCDB' => ['WCDB/PrivacyInfo.xcprivacy']}
+
   wcdb.module_name = "WCDBSwift"
   wcdb.requires_arc = true
   wcdb.pod_target_xcconfig = { 

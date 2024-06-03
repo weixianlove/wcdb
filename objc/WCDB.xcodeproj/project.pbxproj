@@ -630,6 +630,8 @@
 		23FD44B71F067D5D000A2CAC /* statement_vacuum.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 23FD44B31F067D5D000A2CAC /* statement_vacuum.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		242E1E271EA3771400F77029 /* WCTRowSelect+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 242E1E221EA376FB00F77029 /* WCTRowSelect+Private.h */; };
 		242E1E2E1EA37DFD00F77029 /* WCTMultiSelect+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 242E1E2B1EA37DDF00F77029 /* WCTMultiSelect+Private.h */; };
+		99CDE70D2C0D57A900421CEF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 99CDE70C2C0D57A900421CEF /* PrivacyInfo.xcprivacy */; };
+		99CDE70E2C0D57A900421CEF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 99CDE70C2C0D57A900421CEF /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1064,6 +1066,7 @@
 		23FD44B31F067D5D000A2CAC /* statement_vacuum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = statement_vacuum.hpp; sourceTree = "<group>"; };
 		242E1E221EA376FB00F77029 /* WCTRowSelect+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WCTRowSelect+Private.h"; sourceTree = "<group>"; };
 		242E1E2B1EA37DDF00F77029 /* WCTMultiSelect+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WCTMultiSelect+Private.h"; sourceTree = "<group>"; };
+		99CDE70C2C0D57A900421CEF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1149,6 +1152,7 @@
 				2349F62A1EA0D6680021EFA7 /* interface */,
 				2349F6A71EA0D6680021EFA7 /* util */,
 				2349F6BA1EA0D6680021EFA7 /* WCDB.h */,
+				99CDE70C2C0D57A900421CEF /* PrivacyInfo.xcprivacy */,
 			);
 			path = WCDB;
 			sourceTree = "<group>";
@@ -2217,6 +2221,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 23B5F75A1E1111C100E58396;
@@ -2259,6 +2264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99CDE70D2C0D57A900421CEF /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2266,6 +2272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99CDE70E2C0D57A900421CEF /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

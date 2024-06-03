@@ -21,6 +21,7 @@ Pod::Spec.new do |wcdb|
   wcdb.source       = { :git => "https://github.com/Tencent/wcdb.git", :tag => "v1.0.7.5" }
   wcdb.public_header_files = "objc/WCDB/WCDB.h", "objc/WCDB/**/*.{h,hpp}"
   wcdb.source_files  = "objc/WCDB/WCDB.h", "objc/WCDB/**/*.{h,m,hpp,cpp,mm}"
+  wcdb.resource_bundles = {'WCDB' => ['WCDB/PrivacyInfo.xcprivacy']}
   wcdb.frameworks = "CoreFoundation", "Security", "Foundation"
   wcdb.ios.frameworks = "UIKit"
   wcdb.libraries = "z", "c++"
